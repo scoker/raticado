@@ -5,7 +5,7 @@ import com.scoker.Raticado.calculator.EloCalculator
 import com.scoker.Raticado.player.{InMemoryPlayerService, Team}
 import com.scoker.Raticado.scoring.InMemoryScoringService
 
-object Raticado extends App {
+object RaticadoConsoleTest { //extends App {
   //TODO zmienic to na test akceptacyjny
   private val someDate: String = "some date"
 
