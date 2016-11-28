@@ -33,7 +33,7 @@ class PlayersRoutes @Inject() (playerService: PlayerService) {
   private def getPlayers: Route = {
     get {
       complete {
-        playerService.listPlayers()
+        playerService.listPlayers().toList.sortBy(-_.elo.rank)
       }
     }
   }
