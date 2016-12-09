@@ -1,7 +1,7 @@
 package com.scoker.Raticado.player
 
 import com.scoker.Raticado.calculator.Elo
-import com.scoker.Raticado.services.PlayerService
+import com.scoker.Raticado.services.{PlayerNotFoundException, PlayerService}
 
 class InMemoryPlayerService extends PlayerService {
 
@@ -46,6 +46,5 @@ class InMemoryPlayerService extends PlayerService {
   }
 }
 
-case class PlayerNotFoundException(playerName: String) extends Exception(s"Player: $playerName was not found in system.")
 case class PlayerAlreadyExistsException(playerName: String) extends Exception(s"Player: $playerName is already in the system.")
 

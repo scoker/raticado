@@ -10,4 +10,7 @@ trait PlayerService {
   def updateRanking(name: PlayerName, rankDelta: Int): Player
   def get(name: PlayerName): Option[Player]
   def createPlayer(name: PlayerName): Player
+
 }
+
+case class PlayerNotFoundException(playerName: String) extends Exception(s"Player: $playerName was not found in system.")

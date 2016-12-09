@@ -1,17 +1,12 @@
 package com.scoker.Raticado.player
 
+import com.scoker.Raticado.UnitTest
 import com.scoker.Raticado.calculator.Elo
-import com.scoker.Raticado.services.PlayerService
-import org.scalatest.{BeforeAndAfter, FlatSpecLike, Matchers}
+import com.scoker.Raticado.services.{PlayerNotFoundException, PlayerService}
 
-class InMemoryPlayerServiceTest extends FlatSpecLike with BeforeAndAfter with Matchers {
+class InMemoryPlayerServiceTest extends UnitTest with PlayersTestObjects {
 
   private var playerService: PlayerService = _
-
-  private val Krzychu = Player(PlayerName("Krzychu"))
-  private val Andriu = Player(PlayerName("Andriu"))
-  private val Zgredek = Player(PlayerName("Zgredek"))
-  private val Claudia = Player(PlayerName("Claudia"))
 
   before {
     playerService = new InMemoryPlayerService
@@ -48,17 +43,17 @@ class InMemoryPlayerServiceTest extends FlatSpecLike with BeforeAndAfter with Ma
 
   "UpdateRanking" should "add 100 to Krzychu ranking in system" in {
     playerService.addPlayer(Krzychu)
-    playerService.updateRanking(Krzychu.name, hundredPoints)
+    playerService.updateRanking(Krzychu.name, HundredPoints)
     playerService.get(Krzychu.name) shouldEqual Some(Player(PlayerName("Krzychu"), Elo(1600)))
   }
 
   it should "PlayerNotFoundException when given player does not exists in system" in {
-    an [PlayerNotFoundException] should be thrownBy playerService.updateRanking(Krzychu.name, hundredPoints)
+    an [PlayerNotFoundException] should be thrownBy playerService.updateRanking(Krzychu.name, HundredPoints)
   }
 
   "UpdateRankings" should "add 100 to Krzychu ranking in system" in {
     playerService.addPlayer(Krzychu)
-    playerService.updateRankings(Team("", Set("Krzychu")), hundredPoints)
+    playerService.updateRankings(Team("", Set("Krzychu")), HundredPoints)
     playerService.get(Krzychu.name) shouldEqual Some(Player(PlayerName("Krzychu"), Elo(1600)))
   }
 
@@ -71,7 +66,7 @@ class InMemoryPlayerServiceTest extends FlatSpecLike with BeforeAndAfter with Ma
 
   it should "compute ranking for player who has been not added to system" in {
     playerService.addPlayer(Andriu)
-    playerService.updateRankings(Team("One Man Team", Set(Krzychu.name.name)), hundredPoints) shouldEqual Team("One Man Team", Set(Krzychu.name.name))
+    playerService.updateRankings(Team("One Man Team", Set(Krzychu.name.name)), HundredPoints) shouldEqual Team("One Man Team", Set(Krzychu.name.name))
     playerService.get(Krzychu.name) shouldEqual Some(Krzychu.copy(elo = Elo(1600)))
   }
 
@@ -107,6 +102,5 @@ class InMemoryPlayerServiceTest extends FlatSpecLike with BeforeAndAfter with Ma
     an [PlayerAlreadyExistsException] should be thrownBy playerService.addPlayer(Krzychu)
   }
 
-  private val hundredPoints: Int = 100
-  private val teamOfFour = Team("4 mambers team", Set("Krzychu", "Andriu", "Zgredek", "Claudia"))
+  private val HundredPoints: Int = 100
 }
