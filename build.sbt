@@ -24,8 +24,6 @@ settings(
       "org.scalatest"       %%  "scalatest"     % "2.2.6" % "test",
       "net.codingwell"      %%  "scala-guice"   % "4.1.0",
       "org.mockito"          %  "mockito-core"  % "1.9.5",
-      "com.typesafe.slick"  %%  "slick"         % "3.0.0",
-      "com.typesafe.slick"  %%  "slick-codegen" % "3.0.0",
       "org.postgresql"       %  "postgresql"    % "9.4-1201-jdbc41",
       "com.zaxxer"           %  "HikariCP"      % "2.4.1",
       "org.json4s"          %%  "json4s-native" % Json4sVersion,
