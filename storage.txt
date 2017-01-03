@@ -1,34 +1,38 @@
-Jakub Piechnik
-1522
-Michal Adamek
-1570
-Andrzej Pozlutko
-1522
 Krzysztof Andrzejczak
-1603
-Daniel Bochniak
-1473
-Michal Gurgul
-1393
-Albert Kawiorski
-1435
-Lukasz Potepa
-1514
-Tomasz Borowiec
-1467
-Andrzej Bedychaj
-1482
-Piotr Brankiewicz
-1512
-Adrian Lachowski
-1463
+1609
 Wojciech Wasik
 1578
-Bartlomiej Fiter
-1475
+Michal Adamek
+1544
+Maciej Slawinski
+1541
+Jakub Piechnik
+1522
+Andrzej Pozlutko
+1522
+Lukasz Potepa
+1520
+Piotr Brankiewicz
+1512
+Andrzej Bedychaj
+1502
 Radoslaw Morytko
 1485
-Maciej Slawinski
-1521
+Adrian Lachowski
+1483
+Bartlomiej Fiter
+1481
+Radek Morytko
+1474
+Pawel Domagala
+1474
+Daniel Bochniak
+1473
+Tomasz Borowiec
+1473
 Grzegorz Wilaszek
 1466
+Michal Gurgul
+1413
+Albert Kawiorski
+1409
