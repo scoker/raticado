@@ -1,35 +1,37 @@
 Tomasz Borowiec
-1473
-Bartlomiej Fiter
-1481
-Lukasz Potepa
-1520
+1447
+Andrzej Bedychaj
+1476
+Piotr Brankiewicz
+1486
 Krzysztof Andrzejczak
-1609
+1583
+Konrad Galuszka
+1520
+Andrzej Pozlutko
+1542
+Lukasz Potepa
+1540
+Michal Adamek
+1564
+Michal Gurgul
+1419
+Bartlomiej Fiter
+1487
+Adrian Lachowski
+1489
+Maciej Slawinski
+1547
 Pawel Domagala
 1474
 Albert Kawiorski
 1409
 Radoslaw Morytko
 1459
-Michal Adamek
-1544
-Michal Gurgul
-1413
-Andrzej Bedychaj
-1502
-Adrian Lachowski
-1483
-Maciej Slawinski
-1541
 Jakub Piechnik
-1522
-Andrzej Pozlutko
 1522
 Daniel Bochniak
 1473
-Piotr Brankiewicz
-1512
 Wojciech Wasik
 1578
 Grzegorz Wilaszek
