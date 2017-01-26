@@ -1,27 +1,29 @@
+Jakub Piechnik
+1447
+Andrzej Pozlutko
+1433
+Michal Adamek
+1455
 Krzysztof Andrzejczak
-1623
+1548
+Bartlomiej Fiter
+1602
+Michal Gurgul
+1460
+Adrian Lachowski
+1558
+Maciej Slawinski
+1616
 Wojciech Wasik
 1578
-Maciej Slawinski
-1541
 Lukasz Potepa
 1540
-Michal Adamek
-1530
-Bartlomiej Fiter
-1527
 Piotr Brankiewicz
 1526
-Jakub Piechnik
-1522
 Daniel Bochniak
 1513
-Andrzej Pozlutko
-1508
 Konrad Galuszka
 1486
-Adrian Lachowski
-1483
 Pawel Domagala
 1474
 Andrzej Bedychaj
@@ -34,5 +36,3 @@ Tomasz Borowiec
 1447
 Albert Kawiorski
 1409
-Michal Gurgul
-1385
