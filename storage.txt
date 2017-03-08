@@ -1,38 +1,38 @@
+Radoslaw Morytko
+1396
+Andrzej Bedychaj
+1445
 Adrian Lachowski
-1599
+1583
+Konrad Galuszka
+1460
+Wojciech Wasik
+1520
+Michal Adamek
+1438
 Bartlomiej Fiter
-1593
+1535
+Jakub Piechnik
+1489
+Michal Gurgul
+1502
+Piotr Brankiewicz
+1609
+Maciej Slawinski
+1658
 Krzysztof Andrzejczak
 1589
-Maciej Slawinski
-1584
-Wojciech Wasik
-1578
-Piotr Brankiewicz
-1535
-Konrad Galuszka
-1518
 Lukasz Potepa
 1514
 Daniel Bochniak
 1513
 Pawel Domagala
 1506
-Michal Adamek
-1496
 Grzegorz Wilaszek
 1466
-Andrzej Bedychaj
-1461
 Tomasz Borowiec
 1447
-Michal Gurgul
-1428
 Andrzej Pozlutko
 1424
-Jakub Piechnik
-1415
-Radoslaw Morytko
-1412
 Albert Kawiorski
 1409
