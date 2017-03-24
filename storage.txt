@@ -1,31 +1,37 @@
-Konrad Galuszka
-1503
+Bartlomiej Alberski
+1456
+Krzysztof Oleksy
+1456
 Maciej Slawinski
-1701
-Michal Adamek
-1395
+1631
 Pawel Domagala
-1463
+1419
+Lukasz Potepa
+1444
+Michal Adamek
+1465
+Lukasz Malinowski
+1544
 Piotr Brankiewicz
-1566
-Michal Gurgul
-1459
+1636
 Radoslaw Morytko
-1396
+1440
+Konrad Galuszka
+1547
+Bartlomiej Fiter
+1509
 Andrzej Bedychaj
-1445
+1419
+Jakub Piechnik
+1515
+Michal Gurgul
+1485
 Adrian Lachowski
 1583
 Wojciech Wasik
 1520
-Bartlomiej Fiter
-1535
-Jakub Piechnik
-1489
 Krzysztof Andrzejczak
 1589
-Lukasz Potepa
-1514
 Daniel Bochniak
 1513
 Grzegorz Wilaszek
